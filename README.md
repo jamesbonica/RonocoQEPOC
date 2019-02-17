@@ -55,6 +55,10 @@ Here are the contents of the file:
   "hub": "http://selenium-hub-host:4444"
 }
 
+For very detailed instructions and options, refer to:
+
+https://github.com/SeleniumHQ/selenium/wiki/Grid2
+
 Many thanks to the following YouTube Channels:
 
   Naveen AutomationLabs
