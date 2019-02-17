@@ -1,5 +1,8 @@
 # Ignore folder named 'target'
 target/
 
+# Ignore folder named 'test-output'
+test-output/
+
 # ingore file named 'application-jbonica.properties'
 application-jbonica.properties
