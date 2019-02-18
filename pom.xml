@@ -63,6 +63,13 @@
 			<version>2.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -87,6 +94,12 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng1.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<properties>
+						<property>
+							<name>surefire.testng.verbose</name>
+							<value>2</value>
+						</property>
+					</properties>
 				</configuration>
 			</plugin>
 		</plugins>
